@@ -1,6 +1,8 @@
-# SG-Neighborhoods Segmentation
------
-# Data is derived from 
-The main dataset is collected from the open repository: https://github.com/xkjyeah/singapore-postal-codes. It provides the .json file which is a dump of all Singapore postal codes retrieved from Onemap.sg API. From the input json file I extracted only: 'Postcode', 'Building', 'Latitude', 'Longitude'. After cleaning data by removing all NIL values I got 155 744 rows.
+# Singapore Neighborhoods Segmentation
+------------------------------------
+The JSON file contains a body of points representing all of Singapore's postal codes. The dataset also contains geographical coordinates we can use to generate mappings of the country's popular cities. We will focus primarily on 'Postcode', 'Building', 'Latitude', and 'Longitude'.
+# Data is derived from FourSquare API
+------------------------------------
+Additionally we will integrate the FourSquare API to extend the dataset. The final dataset will include building names, venue categories, venues within a parameter of 500 meters, and geographical coordinates.
 
-In addition, to the building's geographical coordinates, I incorporated the Foursquare API, to extend my dataset. The final dataset contains the building's names and their geographical coordinates, all venues names within 500 meters and their geographical coordinates, and in addition venue's categories.
+* The main dataset can be accessed in the open repository: https://github.com/xkjyeah/singapore-postal-codes.
