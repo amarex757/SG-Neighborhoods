@@ -6,3 +6,5 @@ The JSON file contains a body of points representing all of Singapore's postal c
 Additionally we will integrate the FourSquare API to extend the dataset. The final dataset will include building names, venue categories, venues within a parameter of 500 meters, and geographical coordinates.
 
 * The main dataset can be accessed in the open repository: https://github.com/xkjyeah/singapore-postal-codes.
+
+![Singapore](singapore.png)
